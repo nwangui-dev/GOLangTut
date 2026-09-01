@@ -27,3 +27,27 @@ modules
 goroutines
 channels
 basic concurrency
+
+
+ cleanest setup ;
+
+Create an empty GitHub repository called GOLangTut
+cd ~/PROJECTS/GOLangTut
+git init
+git branch -M main
+git remote add origin git@github.com:nwangui-dev/GOLangTut.git
+git add .
+git commit -m "initial commit"
+git push -u origin main
+
+No git clone.
+
+Make changes
+     ↓
+git status
+     ↓
+git add .
+     ↓
+git commit -m "what I changed"
+     ↓
+git push

@@ -31,7 +31,7 @@ func main()  {
 		fmt.Println(number)
 	}
 	ret, err2 := errorHandling(80)
-	if err2 != nil{ // ==nil means if nothing went wrong continue (nil means nothing/no value)
+	if err2 != nil{ // ==nil means ;[if nothing went wrong continue (nil means nothing/no value)
 		fmt.Println("Error encountered")
 		fmt.Println(err2)
 	}else{
